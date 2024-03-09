@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+  {% block content %}
+<div class="row">
+  <div class="col-md-12">
+    <h1>
+      Shop
+    </h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+      <img src="{{url_for('static', filename='images/watch.png')}}"/>
+  </div>
+  <div class="col-md-6">
+    <img src="{{url_for('static', filename='images/unnamed (1).png')}}"/>
+  </div>
+</div>
+{% endblock %}
